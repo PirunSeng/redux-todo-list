@@ -4,7 +4,7 @@ export const TOGGLE_TODO = 'TOGGLE_TODO'
 export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
 
 // action creators
-let nextTodoId = 0
+let nextTodoId = 1
 export function addTodo(text) {
   return { type: ADD_TODO, id: nextTodoId++, text }
 }
